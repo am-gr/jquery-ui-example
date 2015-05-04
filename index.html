@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8" />
+<title>Home Page</title>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+       $(function() {
+     $(" #animate ").accordion({
+	heightStyle: "content", 
+	collapsible: true,
+    active: false,
+     animate: {
+        duration: 0
+    }
+});
+ });
+ // optional animation
+ //  $( ".selector" ).accordion({ animate: "bounceslide" });
+    </script>
+    <style type="text/css">
+	body{
+	margin: 0px;	
+	}
+div{
+padding: 1em 2.2em;
+}
+.ui-accordion-header {
+  display:block;
+  padding: 5px 0; /* Margin makes animation not smooth! */
+  margin: 0px;
+  cursor: pointer;
+}
+div.text
+{
+	display: none;
+	border: 1px solid #999;
+}
+
+.ui-state-active
+{
+color: Blue;
+}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+  
+  <div id="mainContent">
+  <div id="animate">
+<h3>New Article One - Jan 7th, 2014 - 0</h3>
+          <div class="text">
+		  an 10 - Virgin Galactic's SpaceShipTwo, a six-passenger, two-pilot spacecraft aiming to make the world's first commercial suborbital spaceflights later this year, conducted its third rocket-<h2>powered test flight on Friday</h2>
+
+With Virgin Galactic chief pilot David Mackay and co-pilot Mark Stucky at the controls, SpaceShipTwo soared to an altitude 21 640 meters above ground - about twice as high as commercial jetliners, Virgin Galactic said on Twitter.
+		   </div>
+<h3>New Article Three - Jan 24th, 2013 - 0</h3>
+          <div class="text">
+		  <p>Garnering most attention was his work in Aussie sitcom Kath & Kim, in which hive-afflicted Warne fan Sharon Strzelecki finally came into the orbit of her lifelong crush. The episode was a hit, with 2.7 million Australians tuning in to see Warne’s cameo performance. 
+</p>
+<p>Warnie was actually quite good in Kath & Kim, turning in a self-deprecating performance as a ‘Wayne’, a Shane Warne impersonator who didn’t know a wrong ‘un from a top-spinner.
+</p>
+		   </div>
+<h3>This is Another Article - Apr 18th, 2013 - 4</h3>
+          <div class="text">
+		  That doesn’t sound like much for a firm now valued at more than three Instagrams, particularly when you're paying in cash. Internet king Google, which among other projects develops the Android mobile operating system and just bought a robotics firm, is obviously impressed with Nest's control software.
+
+Nest has said that Honeywell, and others who are taking similar action, are trying to stifle market competition, and the startup has bought a patent war chest from Intellectual Ventures to beef up its defenses. But with Monday's deal, the firm will also get access to Google's patent portfolio and a team of experienced and hungry lawyers.
+
+The web advertising goliath said Nest <h2>will continue its operations</h2> as a separate company, and that it expects the deal to clear regulatory hurdles in the next few months. Will Nest users' home sensor data be shared with Google? The upstart's answer to that question in its FAQ isn't entirely clear.
+		   </div><br />
+  4        </div>
+
+  </div>
+</div>
+</body>
+</html>
